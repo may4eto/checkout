@@ -32,7 +32,7 @@ h4 {
 
 .card img {
     max-width: 140px;
-    height: auto;
+    align-self: flex-start;
     border-radius: 12px;
 }
 
@@ -43,20 +43,47 @@ h4 {
 .input-group-text {
     background-color: transparent !important;
     border: 1px solid var(--darkGrey);
+}
+
+.input-group-prepend .input-group-text {
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     border-right: none !important;
+}
+
+.input-group-append .input-group-text {
+    position: relative;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-left: none !important;
+}
+
+.badge {
+    display: inline-block;
+    position: absolute;
+    right: 16px;
 }
 
 .input-group-text i {
     color: var(--darkGrey);
 }
 
+/*input:required:invalid, input:focus:invalid {
+    /*insert style for invalid input
+    -moz-box-shadow: none;
+  }
+
+
+input:required:valid {
+    /* insert your own styles for valid form input 
+  }*/
+  
 .form-control {
     border-radius: 12px;
     height: 56px;
     border: 1px solid var(--darkGrey);
     border-left: none !important;
+    border-right: none !important;
 }
 
 .btn {
@@ -115,8 +142,7 @@ footer {
         height: 40px;
     }
     .card img {
-        width: 100%;
-        height: auto;
+        max-width: 120px;
     }
     .quantity {
         max-width: 120px;
