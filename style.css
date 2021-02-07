@@ -32,6 +32,7 @@ h4 {
 
 .card img {
     max-width: 140px;
+    height: auto;
     border-radius: 12px;
 }
 
@@ -93,13 +94,13 @@ footer {
 
 @media (max-width: 768px) {
     h4, input[placeholder], input[value], option[selected] {
-        font-size: 12px;
+        font-size: 14px;
     }
     h1 {
         font-size: 24px;
     }
     h3, .discount {
-        font-size: 14px;
+        font-size: 16px;
     }
     .form-group {
         margin-bottom: 8px;
@@ -108,16 +109,16 @@ footer {
         margin-bottom: 16px;
     }
     .form-group label, .old-price {
-        font-size: 10px;
+        font-size: 12px;
     }
     .form-control {
         height: 40px;
     }
     .card img {
-        max-width: 120px;
+        width: 100%;
         height: auto;
     }
     .quantity {
-        width: 120px;
+        max-width: 120px;
     }
 }
