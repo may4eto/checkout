@@ -115,6 +115,7 @@ footer {
     }
     .card img {
         max-width: 120px;
+        height: auto;
     }
     .quantity {
         width: 120px;
