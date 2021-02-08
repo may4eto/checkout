@@ -51,39 +51,28 @@ h4 {
     border-right: none !important;
 }
 
-.input-group-append .input-group-text {
+.input-group {
     position: relative;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    border-left: none !important;
 }
 
-.badge {
+.input-group .badge {
     display: inline-block;
     position: absolute;
     right: 16px;
+    font-size: 16px;
+    opacity: 0;
 }
 
 .input-group-text i {
     color: var(--darkGrey);
 }
-
-/*input:required:invalid, input:focus:invalid {
-    /*insert style for invalid input
-    -moz-box-shadow: none;
-  }
-
-
-input:required:valid {
-    /* insert your own styles for valid form input 
-  }*/
   
 .form-control {
-    border-radius: 12px;
+    border-top-right-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
     height: 56px;
     border: 1px solid var(--darkGrey);
     border-left: none !important;
-    border-right: none !important;
 }
 
 .btn {
